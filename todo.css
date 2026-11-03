@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     min-height: 100vh;
+    background: url(picture01.jpg);
+    background-size: cover;
+    background-position: center;
+     
+
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto ;
+    padding: 2cm;
+    max-width: 600px;
+}
+
+form{
+    margin-bottom: 0.8cm;
+    display: flex;
+    justify-content: space-between;
+}
+
+input,button{
+    padding: 0.5cm;
+}
+
+li{
+    cursor:pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(59, 53, 53);
+    margin-bottom: 0.8cm;
+    padding: 0.3cm;
+    border: 1px solid #eff6ed;
+}
+
+.delete{
+    background: rgb(10, 9, 9); color: white;
+}
+.done{
+    background: rgb(15, 13, 13); color: white;
+}
+input, .item {
+        flex:1;
+    }
+
+ul{
+    list-style: none;
+ }
+ #sub{
+    background-color: black;
+     color: white ;
+ }
